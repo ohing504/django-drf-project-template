@@ -12,6 +12,7 @@ This is a simple Django 2.0+ project template with my preferred setup. Most Djan
 - HTTPS and other security related settings on Staging and Production.
 - Procfile for running gunicorn with New Relic's Python agent.
 - PostgreSQL database support with psycopg2.
+- [Django REST framework](https://www.django-rest-framework.org/) is a powerful and flexible toolkit for building Web APIs.
 
 ## How to install
 
