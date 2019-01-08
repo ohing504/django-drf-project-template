@@ -5,6 +5,10 @@ name = "pypi"
 
 [dev-packages]
 Werkzeug = "==0.14.1"
+pytest = "==4.1.0"
+pytest-cov = "==2.6.1"
+pytest-django = "==3.4.5"
+pytest-factoryboy = "==2.0.2"
 
 [packages]
 dj-database-url = "==0.5.0"
