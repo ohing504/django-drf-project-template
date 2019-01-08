@@ -13,6 +13,7 @@ This is a simple Django 2.0+ project template with my preferred setup. Most Djan
 - Procfile for running gunicorn with New Relic's Python agent.
 - PostgreSQL database support with psycopg2.
 - [Django REST framework](https://www.django-rest-framework.org/) is a powerful and flexible toolkit for building Web APIs.
+- A JSON Web Token authentication support with [django-rest-framework-simplejwt](https://github.com/davesque/django-rest-framework-simplejwt). 
 
 ## How to install
 
