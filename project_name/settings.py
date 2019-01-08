@@ -37,6 +37,7 @@ class Common(Configuration):
         'django_extensions',
         'debug_toolbar',
         'rest_framework',
+        'drf_yasg',
 
         '{{ project_name }}.users',
     ]
