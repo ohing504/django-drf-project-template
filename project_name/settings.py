@@ -38,11 +38,13 @@ class Common(Configuration):
         'debug_toolbar',
         'rest_framework',
         'drf_yasg',
+        'corsheaders',
 
         '{{ project_name }}.users',
     ]
 
     MIDDLEWARE = [
+        'corsheaders.middleware.CorsMiddleware',
         'django.middleware.security.SecurityMiddleware',
         'whitenoise.middleware.WhiteNoiseMiddleware',
         'django.contrib.sessions.middleware.SessionMiddleware',
@@ -129,6 +131,9 @@ class Common(Configuration):
         'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
         'PAGE_SIZE': values.IntegerValue(20)
     }
+
+    # CORS
+    CORS_URLS_REGEX = r'^/api/.*$'
 
 
 class Development(Common):

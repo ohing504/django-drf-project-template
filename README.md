@@ -15,6 +15,7 @@ This is a simple Django 2.0+ project template with my preferred setup. Most Djan
 - [Django REST framework](https://www.django-rest-framework.org/) is a powerful and flexible toolkit for building Web APIs.
 - A JSON Web Token authentication support with [django-rest-framework-simplejwt](https://github.com/davesque/django-rest-framework-simplejwt).
 - Documenting API with [drf-yasg](https://github.com/axnsan12/drf-yasg/).
+- Supporting CORS (Cross-Origin Resource Sharing) headers to responses with [django-cors-headers](https://pypi.org/project/django-cors-headers/).
 
 ## How to install
 
