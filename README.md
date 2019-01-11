@@ -24,7 +24,7 @@ This is a simple Django 2.0+ project template with my preferred setup. Most Djan
 $ django-admin.py startproject \
   --template=https://github.com/ohing504/django-drf-project-template/archive/master.zip \
   --name=Procfile \
-  --extension=py,md,env \
+  --extension=py,md,env,ini \
   project_name
 $ mv example.env .env
 $ pipenv install --dev
