@@ -148,17 +148,10 @@ class Development(Common):
 
     ALLOWED_HOSTS = []
 
-    INTERNAL_IPS = [
-        '127.0.0.1'
-    ]
-
-    INSTALLED_APPS = Common.INSTALLED_APPS + [
-        'debug_toolbar',
-    ]
-
-    MIDDLEWARE = Common.MIDDLEWARE + [
-        'debug_toolbar.middleware.DebugToolbarMiddleware'
-    ]
+    # Django Debug Toolbar
+    INTERNAL_IPS = ['127.0.0.1']
+    INSTALLED_APPS = Common.INSTALLED_APPS + ['debug_toolbar']
+    MIDDLEWARE = Common.MIDDLEWARE + ['debug_toolbar.middleware.DebugToolbarMiddleware']
 
 
 class Staging(Common):
